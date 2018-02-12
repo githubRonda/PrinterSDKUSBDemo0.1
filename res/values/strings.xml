@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrintUSBTestV0.1</string>
+    <string name="help">1.input printer name-->open(only can open device which has bounded.)\n
+    					2.menu-->open connection(can open device which has bounded and new device)</string>
+    <string name="input_printer_name">Input printer name</string>
+
+        <!--BTPrinterDemo-->
+    <string name="not_connected">Please Connect BT Printer. (Menu->Connect)</string>
+    <string name="bt_not_enabled">Bluetooth is not available</string>
+    <string name="bt_has_on">Bluetooth has opened</string>
+    <string name="bt_has_off">Bluetooth has closed</string>
+
+    <string name="bt_connecting">Bluetooth connecting...</string>
+    <string name="bt_connect_success">Bluetooth connect success</string>
+    <string name="bt_connect_failed">Bluetooth connect failed</string>
+    <string name="bt_connect_closed">Bluetooth connect has closed</string>
+
+    <string name="bt_print_success">Print Success</string>
+    <string name="bt_print_failed">Print Failed</string>
+
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected">Connected</string>
+    <string name="title_not_connected">Not Connected.</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Please select a device to connect</string>
+    <string name="none_paired">No devices has been paired</string>
+    <string name="has_paired">paired</string>
+    <string name="not_paired">not paired</string>
+    <string name="rePaire_connect">Re-pair And Connect</string>
+    <string name="unpair">Unpair</string>
+    <string name="paire_connect">Pair And Connect</string>
+    <string name="connect_paired">Connect</string>
+    <string name="select_options">Select Options</string>
+
+    <string name="none_found">No devices found</string>
+    <string name="no_bounded_device">Don\'t found device which name start with %s</string>
+
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for new devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Open Connection</string>
+    <string name="connect_other">Open Connection(others)</string>
+    <string name="disconnect">Close Connection</string>
+
+    <!-- main.xml -->
+    <string name="edit_hint">Printer Name(such as T9)</string>
+    <string name="print_text">Print Text</string>
+    <string name="print_table">Print Table</string>
+
+    <string name="print_image">Print Image</string>
+    <string name="print_custom_image">Print Custom Image</string>
+    <string name="print_note">Print Note</string>
+
+    <string name="print_title">Print Title</string>
+    <string name="bar_code_hint">Input bar code, such as: No.123456</string>
+    <string name="print_bar_code">Print Bar Code</string>
+
+    <string name="open_file">open file</string>
+    <string name="save_file">save file</string>
+    <string name="save_as_file">save as file</string>
+    <string name="print_file">print text</string>
+
+    <string name="save_ok">OK</string>
+    <string name="save_cancel">Cancel</string>
+
+    <string name="toast_input_name">Please input file name!</string>
+    <string name="toast_save_null">Please don\'t save null file!</string>
+    <string name="toast_print_null">Please don\'t print null file!</string>
+    <string name="toast_save_success">Save success!</string>
+
+    <string name="input_file_name">Please input file name:</string>
+    <string name="back_to_root">Back to root...</string>
+    <string name="back_to_pre">Back to previous...</string>
+    <string name="file_manager">File Manager</string>
+    <string name="editText_print">Text Print</string>
+
+    <string name="example_text">Android-SDK is a software development kit
+    	that are used to secondary development of printer,
+    	which is provided for customers.
+   		It uses Bluetooth communication protocol,
+    	and intended to be used application development of Android smart device that have BLUETOOTH interface,
+    	such as HTC, Motorola, Samsung and other brands of mobile phones and Android system Tablet.
+    	This SDK is basis on the ESC/POS command standard,
+    	printer with Bluetooth function are suitable for the printing of the system device.
+    	Typical application of Bluetooth phones and portable printer constitutes mobile printing Terminal.
+    	That is widely used in the areas of mobile printing requirements.
+    </string>
+
+    <string name="company_name">printer company</string>
+    <string name="text_point24">This is a line of mixed-format text, 24 point font</string>
+    <string name="text_strike_point18">This is the line of strikethrough text, 18-point font</string>
+    <string name="text_underLine_point18">This is the line of underlined text, 18-point font</string>
+    <string name="text_common_point18">This is a line of plain text, 18-point font</string>
+
+    <string name="shop_company_title">NingBo YueHu Shop</string>
+    <string name="shop_num">Shop Num: </string>
+    <string name="shop_receipt_num">Receipt Num: </string>
+    <string name="shop_cashier_num">Cashier Num: </string>
+    <string name="shop_receipt_date">Receipt Date: </string>
+    <string name="shop_print_time">Print Time: </string>
+
+    <string name="shop_goods_number">Goods Quantity: </string>
+    <string name="shop_goods_total_price">Total: </string>
+
+    <string name="shop_payment">Payment: </string>
+    <string name="shop_change">Change: </string>
+    <string name="shop_company_name">Company Name: The Jiangsu Yiwuyishi Houseware Co., Ltd.</string>
+    <string name="shop_company_site">Company Site: </string>
+    <string name="shop_company_address">Address: Dongchang Road on the 12th, Ningbo City, Jiangsu Province</string>
+    <string name="shop_company_tel">TEL: </string>
+    <string name="shop_Service_Line">Service Line: </string>
+    <string name="shop_thanks">Thank you,welcome to come again!</string>
+    <string name="shop_demo">Demo Version!</string>
+
+    <string name="note_title">Name; Quantity; unit price; Amount</string>
+    <string name="coffee">Coffee</string>
+    <string name="tableware">Tableware</string>
+    <string name="peanuts">Fried peanuts</string>
+    <string name="cucumber">Garlic Cucumber</string>
+
+    <string name="frog">Griddle Frog</string>
+    <string name="rice">Rice</string>
+
+    <string name="company_sub_title">     Focused, reliable, excellent brand of specialty printers</string>
+
+    <string name="bags">Storage bags</string>
+    <string name="umbrella">Umbrella</string>
+    <string name="hook">Wire hook</string>
+
+    <string name="choose_barcode_type">BarCode Type:</string>
+    <string name="choose_paper_width">Paper Width:</string>
+    <string name="choose_printer_type">Printer Type:</string>
+    <string name="choose_Encoding">Encoding Type:</string>
+
+    <string name="printer_type_remin">Thermal</string>
+    <string name="printer_type_styuls">Stylus</string>
+
+</resources>

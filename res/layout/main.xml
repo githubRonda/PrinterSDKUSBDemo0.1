@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="@string/connect" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/default_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/devider0"
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:background="?android:attr/listDivider" />
+
+            <RelativeLayout
+                android:id="@+id/printer_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/devider0"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/printType_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/choose_printer_type" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/type_remin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="130dip"
+                        android:checked="true"
+                        android:text="@string/printer_type_remin" />
+
+                    <RadioButton
+                        android:id="@+id/type_styuls"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dip"
+                        android:text="@string/printer_type_styuls" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/devider1"
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:layout_below="@id/printer_type"
+                android:background="?android:attr/listDivider" />
+
+            <RelativeLayout
+                android:id="@+id/paper_width"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/devider1"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/paperWidth_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dip"
+                    android:text="@string/choose_paper_width" />
+
+                <RadioButton
+                    android:id="@+id/width_58mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="130dip"
+                    android:checked="true"
+                    android:text="58mm" />
+
+                <RadioButton
+                    android:id="@+id/width_80mm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dip"
+                    android:text="80mm" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/devider2"
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:layout_below="@id/paper_width"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:id="@+id/encoding_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/devider2"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dip"
+                    android:layout_weight="2"
+                    android:text="@string/choose_Encoding" />
+
+                <Spinner
+                    android:id="@+id/spinner_encoding_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/devider3"
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:layout_below="@id/encoding_type"
+                android:background="?android:attr/listDivider" />
+            <!-- 条码部分 -->
+
+            <LinearLayout
+                android:id="@+id/barcode_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/devider3"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dip"
+                    android:layout_weight="2"
+                    android:text="@string/choose_barcode_type" />
+
+                <Spinner
+                    android:id="@+id/spinner_barcode_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/print_barcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/barcode_type"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/bar_code_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_background"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/btnPrintBarCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/print_bar_code" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/devider4"
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:layout_below="@id/print_barcode"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:id="@+id/print_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/devider4"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPrintText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/print_text" />
+
+                <Button
+                    android:id="@+id/btnPrintTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:text="@string/print_title" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/devider5"
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:layout_below="@id/print_text"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:id="@+id/print_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/devider5"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPrintImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/print_image" />
+
+                <Button
+                    android:id="@+id/btnPrintCustomImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:text="@string/print_custom_image" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/devider6"
+                android:layout_width="fill_parent"
+                android:layout_height="3px"
+                android:layout_below="@id/print_image"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:id="@+id/print_table"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/devider6"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPrintNote"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/print_note" />
+
+                <Button
+                    android:id="@+id/btnPrintTable"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:text="@string/print_table" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/default_bg"
+    >
+	<ListView android:id="@+id/paired_devices"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:stackFromBottom="true"
+	    android:layout_marginBottom="50dip"
+	/>
+    <Button android:id="@+id/button_scan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_scan"
+    />
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">打印測試V1.0_USB</string>
+    <string name="help">1.輸入打印機名稱-->打開(只能打開已配對的設備)\n
+    					2.菜單-->打開連接(可打開已配對設備與新設備)</string>
+
+    <string name="input_printer_name">打印機名稱</string>
+
+    <!--BTPrinterDemo-->
+    <string name="not_connected">請先連接藍牙打印機（菜單->連接）</string>
+    <string name="bt_not_enabled">藍牙沒有啓動</string>
+    <string name="bt_has_on">藍牙已打開</string>
+    <string name="bt_has_off">藍牙已關閉</string>
+
+    <string name="bt_print_success">打印成功</string>
+    <string name="bt_print_failed">打印失敗</string>
+
+    <string name="bt_connecting">正在連接..</string>
+    <string name="bt_connect_success">連接成功..</string>
+    <string name="bt_connect_failed">連接失敗</string>
+    <string name="bt_connect_closed">連接已關閉</string>
+
+    <string name="title_connecting">正在連接...</string>
+    <string name="title_connected">已連接</string>
+    <string name="title_not_connected">未連接</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">掃描設備中...</string>
+    <string name="select_device">請選擇要連接的設備</string>
+    <string name="none_paired">沒有匹配的設備</string>
+    <string name="has_paired">已配對</string>
+    <string name="not_paired">未配對</string>
+    <string name="rePaire_connect">重新配對並連接</string>
+    <string name="paire_connect">配對並連接</string>
+	<string name="unpair">取消配對</string>
+    <string name="connect_paired">連接</string>
+    <string name="select_options">選擇操作</string>
+
+    <string name="none_found">沒有找到設備</string>
+    <string name="no_bounded_device">未找到名稱以 %s 開頭的設備</string>
+
+    <string name="title_paired_devices">已配對的設備</string>
+    <string name="title_other_devices">其它可用設備</string>
+    <string name="button_scan">掃描新設備</string>
+
+    <!-- Options Menu -->
+    <string name="connect">打開連接</string>
+    <string name="connect_other">打開連接(其他)</string>
+    <string name="disconnect">斷開連接</string>
+
+    <!-- main.xml -->
+    <string name="edit_hint">打印機名稱(如T9)</string>
+    <string name="print_text">打印文本</string>
+    <string name="print_table">打印表格</string>
+
+    <string name="print_image">打印圖片</string>
+    <string name="print_custom_image">打印自定義圖形</string>
+    <string name="print_note">打印小票</string>
+
+    <string name="print_title">打印標題</string>
+    <string name="bar_code_hint">輸入條碼，例如:No.123456</string>
+    <string name="print_bar_code">打印條碼</string>
+
+    <string name="open_file">打開文件</string>
+    <string name="save_file">保存文件</string>
+    <string name="save_as_file">另存文件</string>
+    <string name="print_file">打印文本</string>
+
+    <string name="save_ok">確定</string>
+    <string name="save_cancel">取消</string>
+
+    <string name="toast_input_name">請輸入文件名!</string>
+    <string name="toast_save_null">請勿保存空文件!</string>
+    <string name="toast_print_null">請勿打印空文件!</string>
+    <string name="toast_save_success">保存成功!</string>
+
+    <string name="input_file_name">請輸入文件名稱:</string>
+    <string name="back_to_root">返回根目錄...</string>
+    <string name="back_to_pre">返回上一級...</string>
+    <string name="file_manager">文件管理</string>
+    <string name="editText_print">文本打印</string>
+
+    <string name="example_text">
+    	Android-SDK是提供給用戶在Android系統下進行打印機二次開發的軟件開發工具包。
+    	該軟件開發工具包采用藍牙通信協議，
+    	適合于具有藍牙接口的 Android智能設備開發應用程序使用，
+    	如HTC、Motorola, Samsung等品牌的手機和Android系統的平板電腦。
+    	該軟件開發工具包是基于ESC/POS命令標准，
+    	具有藍牙功能的打印機都適合作爲本系統的打印設備。
+    	典型的應用是藍牙手機+便攜打印機構成移動打印終端，廣泛應用在具有移動打印需求的領域。
+    </string>
+
+    <string name="company_name">打印機公司</string>
+    <string name="text_point24">這是一行混合格式文本，24號字體</string>
+    <string name="text_strike_point18">這是一行刪除線文本，18號字體</string>
+    <string name="text_underLine_point18">這是一行下劃線文本，18號字體</string>
+    <string name="text_common_point18">這是一行普通文本，18號字體</string>
+
+    <string name="shop_company_title">甯波月湖店</string>
+    <string name="shop_num">門店號：</string>
+    <string name="shop_receipt_num">單據號：</string>
+    <string name="shop_cashier_num">收銀員：</string>
+    <string name="shop_receipt_date">單據日期：</string>
+    <string name="shop_print_time">打印時間：</string>
+
+    <string name="shop_goods_number">數量：</string>
+    <string name="shop_goods_total_price">總計：</string>
+    <string name="shop_payment">付款：</string>
+    <string name="shop_change">找零：</string>
+    <string name="shop_company_name">公司名稱：江蘇一五一十家居用品有限公司</string>
+    <string name="shop_company_site">公司網址：</string>
+    <string name="shop_company_address">地址：江蘇省甯波市東昌路12號</string>
+    <string name="shop_company_tel">電話：</string>
+    <string name="shop_Service_Line">服務專線：</string>
+    <string name="shop_thanks">謝謝惠顧,歡迎再次光臨！</string>
+    <string name="shop_demo">Demo 版本！</string>
+
+    <string name="note_title">品名;數量;單價;金額</string>
+    <string name="coffee">咖啡</string>
+    <string name="tableware">消毒餐具</string>
+    <string name="peanuts">油炸花生米</string>
+    <string name="cucumber">蒜泥黃瓜</string>
+
+    <string name="frog">幹鍋田雞</string>
+    <string name="rice">米飯</string>
+
+    <string name="company_sub_title">專注，可靠，中國特種打印機優秀品牌</string>
+    <!--<string name="company_logo_all_title">有logo,主标题和副标题:</string>
+    <string name="company_logo_sub_title">有logo和副标题:</string>
+    <string name="company_logo_title">有logo和主标题:</string>
+    <string name="company_all_title">有主标题和副标题:</string> -->
+
+    <string name="bags">保鮮袋</string>
+    <string name="umbrella">雨傘</string>
+    <string name="hook">鐵絲挂鈎</string>
+
+    <string name="choose_barcode_type">條碼類型:</string>
+    <string name="choose_paper_width">紙張寬度:</string>
+    <string name="choose_printer_type">打印機類型:</string>
+    <string name="choose_Encoding">編碼方式:</string>
+
+    <string name="printer_type_remin">熱敏</string>
+    <string name="printer_type_styuls">針打</string>
+</resources>

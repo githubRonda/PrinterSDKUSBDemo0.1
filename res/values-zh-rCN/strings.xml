@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">打印测试USBV1.0</string>
+    <string name="help">1.输入打印机名称-->打开(只能打开已配对的设备)\n
+    					2.菜单-->打开连接(可打开已配对设备与新设备)</string>
+
+    <string name="input_printer_name">打印机名称</string>
+
+    <!--BTPrinterDemo-->
+    <string name="not_connected">请先连接蓝牙打印机（菜单->连接）</string>
+    <string name="bt_not_enabled">蓝牙没有启动</string>
+    <string name="bt_has_on">蓝牙已打开</string>
+    <string name="bt_has_off">蓝牙已关闭</string>
+
+    <string name="bt_print_success">打印成功</string>
+    <string name="bt_print_failed">打印失败</string>
+
+    <string name="bt_connecting">正在连接..</string>
+    <string name="bt_connect_success">连接成功..</string>
+    <string name="bt_connect_failed">连接失败</string>
+    <string name="bt_connect_closed">连接已关闭</string>
+
+    <string name="title_connecting">正在连接...</string>
+    <string name="title_connected">已连接</string>
+    <string name="title_not_connected">未连接</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">扫描设备中...</string>
+    <string name="select_device">请选择要连接的设备</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="has_paired">已配对</string>
+    <string name="not_paired">未配对</string>
+    <string name="rePaire_connect">重新配对并连接</string>
+    <string name="unpair">取消配对</string>
+    <string name="paire_connect">配对并连接</string>
+    <string name="connect_paired">连接</string>
+    <string name="select_options">选择操作</string>
+
+    <string name="none_found">没有找到设备</string>
+    <string name="no_bounded_device">未找到名称以 %s 开头的设备</string>
+
+    <string name="title_paired_devices">已配对的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描新设备</string>
+
+    <!-- Options Menu -->
+    <string name="connect">打开连接</string>
+    <string name="connect_other">打开连接(其他)</string>
+    <string name="disconnect">断开连接</string>
+
+    <!-- main.xml -->
+    <string name="edit_hint">打印机名称(如T9)</string>
+    <string name="print_text">打印文本</string>
+    <string name="print_table">打印表格</string>
+
+    <string name="print_image">打印图片</string>
+    <string name="print_custom_image">打印自定义图形</string>
+    <string name="print_note">打印小票</string>
+
+    <string name="print_title">打印标题</string>
+    <string name="bar_code_hint">输入条码，例如:No.123456</string>
+    <string name="print_bar_code">打印条码</string>
+
+    <string name="open_file">打开文件</string>
+    <string name="save_file">保存文件</string>
+    <string name="save_as_file">另存文件</string>
+    <string name="print_file">打印文本</string>
+
+    <string name="save_ok">确定</string>
+    <string name="save_cancel">取消</string>
+
+    <string name="toast_input_name">请输入文件名!</string>
+    <string name="toast_save_null">请勿保存空文件!</string>
+    <string name="toast_print_null">请勿打印空文件!</string>
+    <string name="toast_save_success">保存成功!</string>
+
+    <string name="input_file_name">请输入文件名称:</string>
+    <string name="back_to_root">返回根目录...</string>
+    <string name="back_to_pre">返回上一级...</string>
+    <string name="file_manager">文件管理</string>
+    <string name="editText_print">文本打印</string>
+
+    <string name="example_text">
+    	Android-SDK是提供给用户在Android系统下进行打印机二次开发的软件开发工具包。
+    	该软件开发工具包采用蓝牙通信协议，
+    	适合于具有蓝牙接口的 Android智能设备开发应用程序使用，
+    	如HTC、Motorola, Samsung等品牌的手机和Android系统的平板电脑。
+    	该软件开发工具包是基于ESC/POS命令标准，
+    	具有蓝牙功能的打印机都适合作为本系统的打印设备。
+    	典型的应用是蓝牙手机+便携打印机构成移动打印终端，广泛应用在具有移动打印需求的领域。
+    </string>
+
+    <string name="company_name">打印机公司</string>
+    <string name="text_point24">这是一行混合格式文本，24号字体</string>
+    <string name="text_strike_point18">这是一行删除线文本，18号字体</string>
+    <string name="text_underLine_point18">这是一行下划线文本，18号字体</string>
+    <string name="text_common_point18">这是一行普通文本，18号字体</string>
+
+    <string name="shop_company_title">宁波月湖店</string>
+    <string name="shop_num">门店号：</string>
+    <string name="shop_receipt_num">单据号：</string>
+    <string name="shop_cashier_num">收银员：</string>
+    <string name="shop_receipt_date">单据日期：</string>
+    <string name="shop_print_time">打印时间：</string>
+
+    <string name="shop_goods_number">数量：</string>
+    <string name="shop_goods_total_price">总计：</string>
+    <string name="shop_payment">付款：</string>
+    <string name="shop_change">找零：</string>
+    <string name="shop_company_name">公司名称：江苏一五一十家居用品有限公司</string>
+    <string name="shop_company_site">公司网址：</string>
+    <string name="shop_company_address">地址：江苏省宁波市东昌路12号</string>
+    <string name="shop_company_tel">电话：</string>
+    <string name="shop_Service_Line">服务专线：</string>
+    <string name="shop_thanks">谢谢惠顾,欢迎再次光临！</string>
+    <string name="shop_demo">Demo 版本！</string>
+
+    <string name="note_title">品名;数量;单价;金额</string>
+    <string name="coffee">咖啡</string>
+    <string name="tableware">消毒餐具</string>
+    <string name="peanuts">油炸花生米</string>
+    <string name="cucumber">蒜泥黄瓜</string>
+
+    <string name="frog">干锅田鸡</string>
+    <string name="rice">米饭</string>
+
+    <string name="company_sub_title">专注，可靠，中国特种打印机优秀品牌</string>
+    <!--<string name="company_logo_all_title">有logo,主标题和副标题:</string>
+    <string name="company_logo_sub_title">有logo和副标题:</string>
+    <string name="company_logo_title">有logo和主标题:</string>
+    <string name="company_all_title">有主标题和副标题:</string> -->
+
+    <string name="bags">保鲜袋</string>
+    <string name="umbrella">雨伞</string>
+    <string name="hook">铁丝挂钩</string>
+
+    <string name="choose_barcode_type">条码类型:</string>
+    <string name="choose_paper_width">纸张宽度:</string>
+    <string name="choose_printer_type">打印机类型:</string>
+    <string name="choose_Encoding">编码方式:</string>
+
+    <string name="printer_type_remin">热敏</string>
+    <string name="printer_type_styuls">针打</string>
+</resources>

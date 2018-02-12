@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:id="@+id/tblayout"
+	android:background="@drawable/default_bg" >
+	<EditText   
+		android:id="@+id/mPath"  
+		android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"
+		android:textColor="#0404f8" />
+	<LinearLayout 
+		android:id="@+id/ll"
+        android:layout_alignParentBottom="true"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center" >
+    	<Button       
+			android:id="@+id/buttonConfirm"    
+	   		android:layout_width="90px"      
+	   		android:layout_height="wrap_content"		      
+	   		android:text="@string/save_ok" /> 
+		<Button       
+			android:id="@+id/buttonCancle"    
+			android:layout_width="90px"      
+			android:layout_height="wrap_content"
+			android:text="@string/save_cancel" /> 
+	</LinearLayout>
+	<ListView   
+		android:id="@android:id/list"  
+		android:layout_below="@+id/mPath"
+		android:layout_above="@+id/ll"
+		android:layout_width="fill_parent"  
+		android:layout_height="wrap_content" 
+		android:cacheColorHint="#00000000"/>
+</RelativeLayout>
